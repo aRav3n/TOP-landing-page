@@ -1,19 +1,30 @@
 .action-call {
     background-color: #3B82F6;
     color: #ECF3FE;
+    margin: 100px auto;
     padding: 32px 48px;
 }
 
 .banner {
     color: white;
-    background-color: ##1F2937;
+    background-color: #1F2937;
+    justify-content: center safe;
+    margin: 0;
+    width: 100vw;
+}
+
+.banner-content {
+    flex: auto;
+    margin: 1vh 10vw;
 }
 
 body {
+    align-items: center;
     display: flex;
     flex-direction: column;
+    margin: 0;
     min-height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
 }
 
 .body {
@@ -26,4 +37,28 @@ div {
 
 .footer {
     color: #D4D6D9;
+}
+
+.header {
+    align-items: center;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    flex: auto;
+}
+
+.logo {
+    flex: auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: auto;
 }
