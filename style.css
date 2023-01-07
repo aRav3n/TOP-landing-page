@@ -1,0 +1,29 @@
+.action-call {
+    background-color: #3B82F6;
+    color: #ECF3FE;
+    padding: 32px 48px;
+}
+
+.banner {
+    color: white;
+    background-color: ##1F2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.body {
+    color: #1F2937;
+}
+
+div {
+    display: flex;
+}
+
+.footer {
+    color: #D4D6D9;
+}
