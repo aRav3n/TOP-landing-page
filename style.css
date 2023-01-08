@@ -1,21 +1,55 @@
 .action-call {
     background-color: #3B82F6;
     color: #ECF3FE;
-    margin: 100px auto;
+    margin: 15vh auto;
     padding: 32px 48px;
 }
 
 .banner {
     color: #f9faf8;
     background-color: #1F2937;
-    justify-content: center safe;
+    justify-content: center;
     margin: 0;
     width: 100vw;
 }
 
 .banner-content {
     flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 1vh 10vw;
+}
+
+.banner-details {
+    align-items: stretch;
+    gap: 32px;
+    justify-content: space-between;
+    margin: 15vh 0;
+}
+
+.banner-image {
+    align-items: center;
+    background-color: #6D747D;
+    flex: 1;
+    justify-content: center;
+}
+
+.banner-text {
+    align-items: flex-start;
+    flex: 1;
+    flex-direction: column;
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.banner-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 8px 0;
 }
 
 body {
@@ -29,7 +63,10 @@ body {
 }
 
 .body {
+    align-items: center;
     color: #1F2937;
+    flex-direction: column;
+    padding: 10vh 10vw;
 }
 
 div {
@@ -40,11 +77,16 @@ div {
     color: #D4D6D9;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
 .header {
     align-items: center;
     flex: auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 li {
@@ -52,14 +94,27 @@ li {
 }
 
 .logo {
-    flex: auto;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.sign-up {
+    background-color: #3B82F6;
+    border: 0px;
+    border-radius: 8px;
+    flex: 0 1 auto;
+    color: #f9faf8;
+    padding: 8px 32px;
+}
+
+.action-call .sign-up {
+    border: #f9faf8 solid 2px;
 }
 
 ul {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    justify-content: center;
     list-style-type: none;
-    margin-left: auto;
 }
