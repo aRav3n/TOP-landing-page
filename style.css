@@ -5,53 +5,6 @@
     padding: 32px 48px;
 }
 
-.banner {
-    color: #f9faf8;
-    background-color: #1F2937;
-    justify-content: center;
-    margin: 0;
-    width: 100vw;
-}
-
-.banner-content {
-    flex: auto;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 1vh 10vw;
-}
-
-.banner-details {
-    align-items: stretch;
-    gap: 32px;
-    justify-content: space-between;
-    margin: 15vh 0;
-}
-
-.banner-image {
-    align-items: center;
-    background-color: #6D747D;
-    flex: 1;
-    justify-content: center;
-}
-
-.banner-text {
-    align-items: flex-start;
-    flex: 1;
-    flex-direction: column;
-}
-
-.banner-text h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
-    margin: 0;
-}
-
-.banner-text p {
-    color: #e5e7eb;
-    font-size: 18px;
-    margin: 8px 0;
-}
-
 body {
     align-items: center;
     display: flex;
@@ -69,6 +22,16 @@ body {
     padding: 10vh 10vw;
 }
 
+.card {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-wrapper {
+    justify-content: space-around;
+}
+
 div {
     display: flex;
 }
@@ -80,6 +43,7 @@ div {
 h2 {
     font-weight: bold;
     font-size: 36px;
+    margin: 0;
 }
 
 .header {
@@ -87,6 +51,53 @@ h2 {
     flex: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.hero {
+    color: #f9faf8;
+    background-color: #1F2937;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+}
+
+.hero-content {
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1vh 10vw;
+}
+
+.hero-details {
+    align-items: stretch;
+    gap: 32px;
+    justify-content: space-between;
+    margin: 15vh 0;
+}
+
+.hero-image {
+    align-items: center;
+    background-color: #6D747D;
+    flex: 1;
+    justify-content: center;
+}
+
+.hero-text {
+    align-items: flex-start;
+    flex: 1;
+    flex-direction: column;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 8px 0;
 }
 
 li {
