@@ -2,21 +2,29 @@
     align-items: center;
     background-color: #3B82F6;
     border-radius: 8px;
-    color: #ECF3FE;
+    color: #e5e7eb;
     flex: auto;
     gap: 5vw;
     justify-content: space-between;
     margin: 10vh 10vw;
-    padding: 32px 48px;
+    padding: 5vh 10vw;
 }
 
 .action-call .sign-up {
     border: #f9faf8 solid 2px;
 }
 
+.action-headline {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .action-text {
     flex: auto;
     flex-direction: column;
+    font-size: 16px;
+    gap: 1vh;
 }
 
 body {
@@ -69,7 +77,12 @@ div {
 }
 
 .footer {
+    align-items: center;
+    background-color: #1F2937;
     color: #D4D6D9;
+    justify-content: center;
+    padding: 5vh 0;
+    width: 100vw;
 }
 
 h2 {
@@ -166,6 +179,8 @@ li {
     border: 0px;
     border-radius: 8px;
     flex: 0 0 auto;
+    font-size: 16px;
+    font-weight: bold;
     color: #f9faf8;
     padding: 8px 32px;
 }
