@@ -115,6 +115,8 @@ h2 {
 
 .hero-details {
     align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2vw;
     justify-content: space-between;
     margin: 15vh 0;
@@ -123,13 +125,14 @@ h2 {
 .hero-image {
     align-items: center;
     background-color: #6D747D;
-    flex: 1;
+    flex: 1 0 200px;
     justify-content: center;
+    min-height: 200px;
 }
 
 .hero-text {
     align-items: flex-start;
-    flex: 1;
+    flex: 1 0 200px;
     flex-direction: column;
 }
 
