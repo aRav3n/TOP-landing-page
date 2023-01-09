@@ -1,7 +1,12 @@
 .action-call {
+    align-items: center;
     background-color: #3B82F6;
+    border-radius: 8px;
     color: #ECF3FE;
-    margin: 15vh auto;
+    flex: auto;
+    gap: 5vw;
+    justify-content: space-between;
+    margin: 10vh 10vw;
     padding: 32px 48px;
 }
 
@@ -9,9 +14,15 @@
     border: #f9faf8 solid 2px;
 }
 
+.action-text {
+    flex: auto;
+    flex-direction: column;
+}
+
 body {
     align-items: center;
     display: flex;
+    flex: auto;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -154,7 +165,7 @@ li {
     background-color: #3B82F6;
     border: 0px;
     border-radius: 8px;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     color: #f9faf8;
     padding: 8px 32px;
 }
