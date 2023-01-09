@@ -5,6 +5,10 @@
     padding: 32px 48px;
 }
 
+.action-call .sign-up {
+    border: #f9faf8 solid 2px;
+}
+
 body {
     align-items: center;
     display: flex;
@@ -19,16 +23,33 @@ body {
     align-items: center;
     color: #1F2937;
     flex-direction: column;
-    padding: 10vh 10vw;
+    padding: 0 10vw;
 }
 
 .card {
     align-items: center;
+    flex: 0 1 0;
     flex-direction: column;
+    gap: 8px;
     text-align: center;
 }
 
+.card-image {
+    border: 4px solid #3B82F6;
+    border-radius: 5%;
+    height: 150px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.card-text {
+    flex: 0 1 0;
+}
+
 .card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
     justify-content: space-around;
 }
 
@@ -43,7 +64,7 @@ div {
 h2 {
     font-weight: bold;
     font-size: 36px;
-    margin: 0;
+    margin: 48px;
 }
 
 .header {
@@ -110,6 +131,25 @@ li {
     justify-content: center;
 }
 
+.quote-large {
+    background-color: #e5e7eb;
+    gap: 16px;
+    margin: 10vh 0;
+    padding: 10vh 18vw;
+}
+
+.quote-person {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
 .sign-up {
     background-color: #3B82F6;
     border: 0px;
@@ -117,10 +157,6 @@ li {
     flex: 0 1 auto;
     color: #f9faf8;
     padding: 8px 32px;
-}
-
-.action-call .sign-up {
-    border: #f9faf8 solid 2px;
 }
 
 ul {
